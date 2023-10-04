@@ -1,7 +1,17 @@
 import React from "react";
 
-const index = () => {
-  return <div>index</div>;
+const Home = () => {
+  return (
+    <>
+      Herobanner
+      <div>
+        <h2>best selling products</h2>
+        <p>speakers of many variations</p>
+      </div>
+      <div>{["product 1", "product 2"].map((product) => product)}</div>
+      footer
+    </>
+  );
 };
 
-export default index;
+export default Home;
